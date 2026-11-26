@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Output artifacts
+outputs/logs/*.log
+outputs/screenshots/*.png
+outputs/data/*.csv
+outputs/data/*.xlsx
+!outputs/data/.gitkeep
+!outputs/logs/.gitkeep
+!outputs/screenshots/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
